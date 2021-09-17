@@ -1,0 +1,409 @@
+header{
+    position: absolute;
+    width: 1440px;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+    background: #010101;
+}
+/* Menu */
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 50px;
+}
+.container {
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container img {
+    width: 80px;
+    margin-right: -40;
+    margin-top: 4px;
+}
+body {
+    margin: auto;
+    width: 100%;
+    background: #E5E5E5;
+}
+
+h2 {
+    font-size: 96px;
+    line-height: 112px;
+    color: #FFFFFF;
+}
+/* Pagina Principal */
+.principal {
+    display: flex;
+    height: 40rem;
+    margin-top: .2rem;
+    flex-direction: column;
+    background-image: url(img/pozole-1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+}
+.title {
+    position: absolute;
+    width: 971px;
+    height: 95px;
+    left: 80px;
+    top: 173px;
+}
+.segtitle {
+    position: absolute;
+    width: 595px;
+    height: 122px;
+    left: 80px;
+    top: 290px;
+}
+
+.p-lorem {
+    position: absolute;
+    width: 739px;
+    height: 84px;
+    left: 82px;
+    top: 427px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.nar-1 {
+    position: absolute;
+    width: 215px;
+    height: 73px;
+    left: 128px;
+    top: 563px;
+    background: #EB5A2C;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.nar-2 {
+    position: absolute;
+    width: 215px;
+    height: 73px;
+    left: 408px;
+    top: 563px;
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+/* icons */
+.rect-1 {
+    position: static;
+    width: 349px;
+    height: 353px;
+    left: 128px;
+    top: 750px;
+    display: flex;
+    justify-content: space-evenly;
+    background: #EB5A2C;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+}
+
+.p-rect-1 {
+    position: absolute;
+    width: 243px;
+    height: 56px;
+    left: 96px;
+    top: 69px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.p-rect-2 {
+    position: absolute;
+    width: 243px;
+    height: 56px;
+    left: 99px;
+    top: 66px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+
+}
+
+.p-rect-3 {
+    position: absolute;
+    width: 243px;
+    height: 56px;
+    left: 1014px;
+    top: 969px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.plato {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 633px;
+    top: 794px;
+    background: url(img/nose.png);
+}
+section>div>h3 {
+    position: absolute;
+    width: 569px;
+    height: 95px;
+    left: 125px;
+    top: 1250px;
+    font-size: 72px;
+    line-height: 84px;
+    color: #010101;
+}
+/*Segunda Pagina*/
+.l-3 {
+    position: absolute;
+    width: 681px;
+    height: 223px;
+    left: 115px;
+    top: 1459px;
+    font-size: 30px;
+    line-height: 35px;
+    color: #010101;
+}
+section>div>p>img {
+    position: absolute;
+    width: 530px;
+    height: 492px;
+    left: 783px;
+    top: 1213px;
+}
+.rect-4{
+    position: absolute;
+    width: 1029px;
+    height: 195px;
+    left: 227px;
+    top: 1775px;
+    border: 8px solid #EB5A2C;
+    box-sizing: border-box;
+}
+.l-4 {
+    position: absolute;
+    width: 978px;
+    height: 113px;
+    left: 278px;
+    top: 1816px;
+    font-size: 30px;
+    line-height: 35px;
+    color: rgba(1, 1, 1, 0.8);
+}
+/* Galeria */
+.g-2{
+    position: absolute;
+    width: 423px;
+    height: 311px;
+    left: 75px;
+    top: 2104px;
+
+    background: url(img/galeria-2.png);
+}
+.g-3 {
+    position: absolute;
+    width: 423px;
+    height: 518px;
+    left: 75px;
+    top: 2433px;
+
+    background: url(img/galeria-3.png);
+}
+.g-1 {
+    position: absolute;
+    width: 388px;
+    
+    height: 847px;
+    left: 514px;
+    top: 2104px;
+
+    background: url(img/galeria-1.png);
+}
+.g-4 {
+    position: absolute;
+    width: 469px;
+    height: 293px;
+    left: 918px;
+    top: 2104px;
+
+    background: url(img/galeria-4.png);
+}
+.g-5 {
+    position: absolute;
+    width: 469px;
+    height: 246px;
+    left: 918px;
+    top: 2415px;
+    
+    background: url(img/galeria-5.png);  
+}
+.g-6 {
+    position: absolute;
+    width: 469px;
+    height: 272px;
+    left: 918px;
+    top: 2679px;
+
+    background: url(img/galeria-6.png);
+}
+/* Formulario */
+.form-section {
+    background: linear-gradient(180deg, #EB5A2C 0%, rgba(196, 196, 196, 0) 100%);
+    justify-content: space-between;
+    display: flex;
+    padding: 50px;
+    border: 1px solid rgb(233, 238, 232);
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 30px;
+}
+.form-section h2 {
+    color: white;
+    font-size: 70px;
+    margin-top: -100px;
+    margin-left: 50px;
+}
+.formb {
+    border: 1px solid rgb(163, 162, 162);
+    border-bottom: 4px solid rgb(163, 162, 162);
+    padding: 35px 35px 150px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+.style {
+    width: 400px;
+    border-radius: 10px;
+    margin-top: 30px;
+    border: rgb(163, 162, 162);
+    height: 40px;
+}
+.input-form {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.color{
+    background-color: tomato;
+}
+.in-color {
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+/*Tercera Pagina*/
+
+.posole1 {
+    position: absolute;
+    width: 440px;
+    height: 398px;
+    left: 206px;
+    top: 3840px;
+    background: url(img/posole1.png);
+}
+.l-10 {
+    position: absolute;
+    width: 569px;
+    height: 95px;
+    left: 720px;
+    top: 3843px;
+    font-size: 72px;
+    line-height: 84px;
+    color: #010101;
+}
+.posol {
+    position: absolute;
+    width: 542px;
+    height: 431px;
+    left: 720px;
+    top: 4031px;
+    font-size: 30px;
+    line-height: 35px;
+    color: #010101;
+}
+/* Estrellas */
+.estrella-1 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 564px;
+    top: 4331px;
+    
+ 
+}
+.estrella-2 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 642px;
+    top: 4331px;
+
+}
+.estrella-3 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 720px;
+    top: 4331px;
+}
+.estrella-4 {
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    left: 808px;
+    top: 4331px;
+}
+.estrella-5 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 996px;
+    top: 4331px;
+}
+/*Footer*/
+.logo-footer {
+    position: absolute;
+    width: 139px;
+    height: 32px;
+    left: 1121px;
+    margin:0 auto;
+    display: flex;
+    margin-top: 1em;
+}
+footer {
+    position: absolute;
+    width: 1440px;
+    height: 338px;
+    left: 0px;
+    top: 4529px;
+    background: #010101;
+}
+
+.foot-lorem {
+    position: absolute;
+    width: 542px;
+    height: 20px;
+    left: 104px;
+}
+p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px;
+    color: #FFFFFF;
+}
